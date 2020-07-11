@@ -1,4 +1,4 @@
-package AgeCalculator;
+package ageCalculator;
 
 import java.time.LocalDate;
 import java.time.Period;

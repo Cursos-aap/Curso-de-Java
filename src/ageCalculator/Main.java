@@ -1,4 +1,4 @@
-package AgeCalculator;
+package ageCalculator;
 
 public class Main {
 

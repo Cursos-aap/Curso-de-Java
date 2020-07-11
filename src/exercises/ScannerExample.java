@@ -1,6 +1,4 @@
-package Exercises;
-
-import java.util.Scanner;
+package exercises;
 
 public class ScannerExample {
 

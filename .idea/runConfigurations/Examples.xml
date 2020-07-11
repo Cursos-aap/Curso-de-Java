@@ -5,7 +5,7 @@
     <option name="PROGRAM_PARAMETERS" value="&quot;ruta/file.txt&quot; Hola" />
     <extension name="coverage">
       <pattern>
-        <option name="PATTERN" value="Exercises.*" />
+        <option name="PATTERN" value="exercises.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>

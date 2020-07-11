@@ -1,4 +1,4 @@
-package Exercises;
+package exercises;
 
 import java.util.Scanner;
 import java.util.stream.LongStream;

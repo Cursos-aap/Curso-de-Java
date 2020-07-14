@@ -13,16 +13,17 @@ public class Exercises {
     public static void doILikeYou(){
         Scanner scanner = new Scanner(System.in);
 
-        boolean do_i_like_you = false;
-
+        scanner.nextLine().toUpperCase();
+        StringBuilder builder = new StringBuilder();
+        System.out.println(builder.length());
         do{
             System.out.println("-Oye, me gustas UwU\n-¿Quieres ser mi novia? y/n");
             if(scanner.nextLine().equalsIgnoreCase("Y")){
-                do_i_like_you = true;
                 System.out.println("+Sí, me gustas mucho\n-No, ya no quiero nada");
+                break;
             }else
                 System.out.println("Sácate de aquí >:(");
-        }while (!do_i_like_you);
+        }while (true);
 
         scanner.close();
     }
